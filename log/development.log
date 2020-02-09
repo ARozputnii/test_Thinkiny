@@ -20822,3 +20822,110 @@ Redirected to https://www.facebook.com/dialog/oauth?client_id=502395977082303&di
 Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 692)
 
 
+DEPRECATION WARNING: Initialization autoloaded the constants ActionText::ContentHelper and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ActionText::ContentHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/andriy/Рабочий стол/geekhub/homework/test_Thinkiny/config/environment.rb:5)
+Started GET "/oauth/facebook" for ::1 at 2020-02-09 13:27:22 +0200
+  [1m[35m (2.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by OauthsController#oauth as HTML
+  Parameters: {"provider"=>"facebook"}
+Redirected to https://www.facebook.com/dialog/oauth?client_id=502395977082303&display=popup&redirect_uri=https%3A%2F%2Fmighty-river-78322.herokuapp.com%2Foauth%2Ffacebook&response_type=code&scope=email%2Coffline_access%2Cuser_hometown%2Cuser_interests%2Cuser_likes&state
+Completed 302 Found in 8ms (ActiveRecord: 0.0ms | Allocations: 1196)
+
+
+Started GET "/" for ::1 at 2020-02-09 13:27:26 +0200
+Processing by CoursesController#index as HTML
+  Rendering courses/index.html.erb within layouts/application
+  Rendered courses/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 199)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 3.1ms | Allocations: 502)
+  Rendered shared/_message.html.erb (Duration: 0.5ms | Allocations: 171)
+Completed 200 OK in 22ms (Views: 13.7ms | ActiveRecord: 0.0ms | Allocations: 7483)
+
+
+Started GET "/login" for ::1 at 2020-02-09 13:27:29 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 6.5ms | Allocations: 3928)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 118)
+  Rendered shared/_message.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 14ms (Views: 12.2ms | ActiveRecord: 0.0ms | Allocations: 6912)
+
+
+Started GET "/oauth/facebook" for ::1 at 2020-02-09 13:27:31 +0200
+Processing by OauthsController#oauth as HTML
+  Parameters: {"provider"=>"facebook"}
+Redirected to https://www.facebook.com/dialog/oauth?client_id=502395977082303&display=popup&redirect_uri=https%3A%2F%2Fmighty-river-78322.herokuapp.com%2Foauth%2Ffacebook&response_type=code&scope=email%2Coffline_access%2Cuser_hometown%2Cuser_interests%2Cuser_likes&state
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms | Allocations: 656)
+
+
+Started GET "/oauth/facebook" for ::1 at 2020-02-09 13:27:32 +0200
+Processing by OauthsController#oauth as HTML
+  Parameters: {"provider"=>"facebook"}
+Redirected to https://www.facebook.com/dialog/oauth?client_id=502395977082303&display=popup&redirect_uri=https%3A%2F%2Fmighty-river-78322.herokuapp.com%2Foauth%2Ffacebook&response_type=code&scope=email%2Coffline_access%2Cuser_hometown%2Cuser_interests%2Cuser_likes&state
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 669)
+
+
+DEPRECATION WARNING: Initialization autoloaded the constants ActionText::ContentHelper and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ActionText::ContentHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/andriy/Рабочий стол/geekhub/homework/test_Thinkiny/config/environment.rb:5)
+Started GET "/login" for ::1 at 2020-02-09 13:29:50 +0200
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 3.8ms | Allocations: 4074)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 3.6ms | Allocations: 481)
+  Rendered shared/_message.html.erb (Duration: 0.4ms | Allocations: 172)
+Completed 200 OK in 20ms (Views: 13.7ms | ActiveRecord: 0.0ms | Allocations: 9073)
+
+
+Started GET "/oauth/facebook" for ::1 at 2020-02-09 13:29:52 +0200
+Processing by OauthsController#oauth as HTML
+  Parameters: {"provider"=>"facebook"}
+Redirected to https://www.facebook.com/dialog/oauth?client_id=502395977082303&display=popup&redirect_uri=https%3A%2F%2Fmighty-river-78322.herokuapp.com%2Foauth%2Ffacebook&response_type=code&scope=email%2Coffline_access%2Cuser_hometown%2Cuser_interests%2Cuser_likes&state
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms | Allocations: 1089)
+
+
+Started GET "/oauth/facebook" for ::1 at 2020-02-09 13:29:53 +0200
+Processing by OauthsController#oauth as HTML
+  Parameters: {"provider"=>"facebook"}
+Redirected to https://www.facebook.com/dialog/oauth?client_id=502395977082303&display=popup&redirect_uri=https%3A%2F%2Fmighty-river-78322.herokuapp.com%2Foauth%2Ffacebook&response_type=code&scope=email%2Coffline_access%2Cuser_hometown%2Cuser_interests%2Cuser_likes&state
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms | Allocations: 665)
+
+
+Started GET "/oauth/facebook" for ::1 at 2020-02-09 13:30:38 +0200
+Processing by OauthsController#oauth as HTML
+  Parameters: {"provider"=>"facebook"}
+Redirected to https://www.facebook.com/dialog/oauth?client_id=502395977082303&display=popup&redirect_uri=https%3A%2F%2Fmighty-river-78322.herokuapp.com%2Foauth%2Ffacebook&response_type=code&scope=email%2Coffline_access%2Cuser_hometown%2Cuser_interests%2Cuser_likes&state
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 654)
+
+
+Started GET "/oauth/facebook" for ::1 at 2020-02-09 13:30:38 +0200
+Processing by OauthsController#oauth as HTML
+  Parameters: {"provider"=>"facebook"}
+Redirected to https://www.facebook.com/dialog/oauth?client_id=502395977082303&display=popup&redirect_uri=https%3A%2F%2Fmighty-river-78322.herokuapp.com%2Foauth%2Ffacebook&response_type=code&scope=email%2Coffline_access%2Cuser_hometown%2Cuser_interests%2Cuser_likes&state
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms | Allocations: 661)
+
+

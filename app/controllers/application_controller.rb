@@ -1,6 +1,4 @@
 class ApplicationController < ActionController::Base
-  before_action :require_login
-
   private
   def admin_verify
     redirect_to root_path unless current_user&.admin?

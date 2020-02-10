@@ -154,8 +154,6 @@ Rails.application.config.sorcery.configure do |config|
   config.google.callback_url = "https://mighty-river-78322.herokuapp.com/oauth/google"
   config.google.user_info_mapping = {
     :email => "email",
-    :first_name => "given_name",
-    :last_name => "family_name"
   }
   #
   # For Microsoft Graph, the key will be your App ID, and the secret will be your app password/public key.

@@ -114,7 +114,7 @@ Rails.application.config.sorcery.configure do |config|
   #
   config.facebook.key = ENV['FACEBOOK_KEY']
   config.facebook.secret = ENV['FACEBOOK_SECRET']
-  config.facebook.callback_url = "https://mighty-river-78322.herokuapp.com/oauth/facebook"
+  config.facebook.callback_url = "http://thinkiny.ddns.net/oauth/facebook"
   config.facebook.user_info_mapping = {:email => "email"} #etc
   config.facebook.scope = "email" #etc
   config.facebook.display = "popup"
@@ -141,7 +141,7 @@ Rails.application.config.sorcery.configure do |config|
   # config.wechat.key = ""
   # config.wechat.secret = ""
   # config.wechat.callback_url = "http://0.0.0.0:3000/oauth/callback?provider=wechat"
-  #
+  # =>
   # For Auth0, site is required and should match the domain provided by Auth0.
   #
   # config.auth0.key = ""
